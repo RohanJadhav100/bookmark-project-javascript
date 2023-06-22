@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+}
+h1 {
+  margin: 40px 0;
+  color: #aaa;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.row1 {
+  padding: 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.bookmarkInfo {
+  padding: 30px;
+  text-align: center;
+  background-color: #eee;
+}
+
+.bookmarkInfo p {
+  font-size: 3.6rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.container {
+  margin: 0 80px;
+  max-width: 1200px;
+}
+.bookmarkInput label {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 12px 0;
+}
+.bookmarkInput input {
+  display: inline-block;
+  margin: 10px 0;
+  width: 80%;
+  padding: 10px;
+}
+.saveBtn {
+  background-color: #1167c4;
+  padding: 14px 18px;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+
+#linkText {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.singleLink {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 18px;
+  background-image: linear-gradient(#eee, white);
+}
+
+.btn {
+  padding: 12px 18px;
+}
+.visitBtn {
+  font-size: 1.4rem;
+  color: white;
+  background-color: #1167c4;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.delteBtn {
+  color: white;
+  background-color: #fa5252;
+  border: none;
+  border-radius: 6px;
+}
+.allLinks h2 {
+  /* display: none; */
+  font-size: 3.2rem;
+  margin-top: 24px;
+  text-align: center;
+}
+
+/* -------------MEDIA-QUERY---------------- */
+
+@media (max-width: 828px) {
+  .container {
+    margin: 0 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 55%;
+  }
+  .container {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 48%;
+  }
+  .bookmarkInfo p {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .btn {
+    font-size: 12px;
+    padding: 6px 9px;
+  }
+}
